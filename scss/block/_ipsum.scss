@@ -41,13 +41,10 @@
 }
 
 @media screen and (min-width:768px){
-    .ipsum__block{
+    .ipsum__link{
         display: flex;
         gap: 116px;
-        margin-top: 90px;
-        text-align: start;
     }
-
     .ipsum__title{
         font-weight: 500;
         font-size: 30px;
