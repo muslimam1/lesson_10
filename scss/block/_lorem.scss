@@ -1,0 +1,123 @@
+.lorem__title{
+    padding: 62px 118px 33px 117px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 209%;
+    color: #848484;
+}
+
+.lorem__services{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 209%;
+    color: #e47500;
+}
+
+.lorem__text{
+    margin-left: 27px;
+    margin-right: 28px;
+    margin-bottom: 33px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 180%;
+    text-align: center;
+    color: #222;
+}
+
+.lorem__words{
+    margin-left: 56px;
+    margin-right: 56px;
+    margin-bottom: 27px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 187%;
+    text-align: center;
+    color: #898989;
+}
+
+.lorem__box{
+    display: flex;
+    gap: 62px;
+    border-radius: 10px;
+    padding: 21px 65px 43px 16px;
+    background-color:  #f4f4f4;;
+}
+
+.lorem__list{
+    display: flex;
+    justify-content: space-between;
+}
+.lorem__block{
+    display: flex;
+}
+
+.lorem__num{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 176%;
+    color: #0b132a;
+}
+
+.lorem__project_about{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 214%;
+    color: #4f5665;
+}
+
+@media screen and (min-width:768px){
+    .lorem__title{
+        padding: 62px 118px 15px 117px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 209%;
+        color: #848484;
+    }
+
+    .lorem__text{
+        margin-left: 27px;
+        margin-right: 28px;
+        margin-bottom: 13px;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 180%;
+        text-align: center;
+        color: #222;
+    }
+    
+    .lorem__words{
+        margin-left: 56px;
+        margin-right: 56px;
+        margin-bottom: 27px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 187%;
+        text-align: center;
+        color: #898989;
+    }
+
+    .lorem__box{
+        display: flex;
+        justify-content: space-between;
+        gap: 231px;
+        border-radius: 3px;
+        padding: 55px 106px 79px 68px;
+        background-color:rgb(248, 248, 248);
+    }
+
+    .lorem__num{
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 120%;
+        color: #0b132a;
+    }
+    
+    .lorem__project_about{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+        color: #4f5665;
+    }
+}

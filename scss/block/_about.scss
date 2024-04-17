@@ -1,0 +1,79 @@
+.about__box{
+    margin-top: 50px;
+    text-align:start;
+}
+
+.about__title{
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 180%;
+    color: #222;
+    margin-bottom: 18px;
+}
+
+.about__png{
+    display: none;
+}
+
+.about__text{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 187%;
+    color: #525252;
+    margin-bottom: 58px;
+}
+
+.about__words{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187%;
+    color: #525252;
+    margin-bottom: 3px;
+
+    &::before{
+        content: " ";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-repeat: no-repeat;
+        background-image: url('../img/tick.svg');
+        background-position: left;
+    }
+}
+
+.about__img{
+    margin-top: 45px;
+}
+
+@media screen and (min-width:768px){
+    .about__link{
+        display: flex;
+        justify-content: space-between;
+        gap: 87px;
+    }
+
+    .about__title{
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 180%;
+        color: #222;
+        margin-bottom: 18px;
+    }
+    
+    .about__text{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 187%;
+        color: #525252;
+        margin-bottom: 58px;
+    }
+
+    .about__img{
+        display: none;
+    }
+
+    .about__png{
+        display: inline-block;
+    }
+    
+}
