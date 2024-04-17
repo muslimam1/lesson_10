@@ -1,0 +1,79 @@
+.phone__box{
+    margin-top: 90px;
+    text-align: start;
+    margin-bottom: 168px;
+}
+
+.phone__title{
+    font-weight: 500;
+    font-size: 21px;
+    color: #000;
+}
+
+.phone__text{
+    margin-top: 34px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #515151;
+}
+
+.phone__words{
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #515151;
+    margin-bottom: 30px;
+}
+
+.phone__btn{
+    padding: 13px 44px 13px 45px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background-color:  #dc7000;
+}
+
+.phone_photo2{
+    display: none;
+}
+
+.phone__picture{
+    margin-top: 62px;
+}
+
+@media screen and (min-width:768px){
+    .phone__box{
+        display: flex;
+        gap: 138px;
+    }
+
+    .phone__title{
+        font-weight: 500;
+        font-size: 30px;
+        color: #000;
+    }
+    
+    .phone__text{
+        margin-top: 34px;
+        font-weight: 400;
+        font-size: 17px;
+        color: #515151;
+    }
+    
+    .phone__words{
+        margin-top: 22px;
+        font-weight: 400;
+        font-size: 17px;
+        color: #515151;
+        margin-bottom: 30px;
+    }
+    
+    .phone__picture{
+       display: none;
+    }
+
+    .phone_photo2{
+        display:inline-block;
+    }
+
+}
